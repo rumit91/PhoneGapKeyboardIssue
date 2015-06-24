@@ -6,8 +6,8 @@ Repo for testing out issues with the PhoneGap keyboard in iOS. Specifically crea
 2. Run `phonegap build ios`
 3. Open  `/platforms/ios/KeyboardIssue.xcodeproj` and Run
 4. The default behavior can be seen by tapping on the input field. 
-![Screenshot1 - keyboard down - no fix](http://i.imgur.com/p7PaD35m.png) ![Screenshot2 - keyboard up - no fix](http://i.imgur.com/ldiFwh9m.png)
-5. Tapping "Activate Partial Fix" will enable the hacky partial fix that I wrote which passes the right frame resizing commands to the WKWebView. 
+- ![Screenshot1 - keyboard down - no fix](http://i.imgur.com/p7PaD35m.png) ![Screenshot2 - keyboard up - no fix](http://i.imgur.com/ldiFwh9m.png)
+6. Tapping "Activate Partial Fix" will enable the hacky partial fix that I wrote which passes the right frame resizing commands to the WKWebView. 
 - ![Screenshot3 - keyboard down - fix](http://i.imgur.com/5MWvToBm.png) ![Screenshot4 - keyboard up - fix](http://i.imgur.com/oAnr6wHm.png)
 
 ###Partial Fix is not working as intended.###
