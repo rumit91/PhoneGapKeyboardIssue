@@ -45,5 +45,9 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
+    },
+    dismissKeyboard: function() {
+        var input = document.getElementById('messageInput');
+        input.blur();
     }
 };
