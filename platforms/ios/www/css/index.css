@@ -139,6 +139,7 @@ h1 {
 
 .content-container {
     -webkit-flex:  1 1 auto;
+    overflow: scroll;
 }
 
 .message {
