@@ -1,0 +1,27 @@
+{
+	"name": "cordova-plugin-wkwebview",
+	"version": "0.3.9",
+	"cordova": {
+		"id": "cordova-plugin-wkwebview",
+		"platforms":
+		[
+		"ios"
+		]
+		},
+		"description": "WKWebView Polyfill",
+		"license": "MIT",
+		"repository":{
+			"type": "git",
+			"url": "https://github.com/etiennea/WKWebView.git"
+			},
+			"keywords": [
+			"ecosystem:cordova",
+			"cordova",
+			"device",
+			"cordovaplugin",
+			"cordova-ios"
+			],
+			"author": "etiennead",
+			"contributors": [],
+			"homepage": "https://github.com/etiennea/WKWebView.git"
+		}
