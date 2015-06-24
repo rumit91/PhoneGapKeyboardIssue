@@ -37,10 +37,12 @@
 @property (readwrite, assign) BOOL shrinkView;
 @property (readwrite, assign) BOOL disableScrollingInShrinkView;
 @property (readwrite, assign)  BOOL hideFormAccessoryBar;
+@property (readwrite, assign)  BOOL activatePartialFix;
 @property (readonly, assign)  BOOL keyboardIsVisible;
 
 - (void) shrinkView:(CDVInvokedUrlCommand*)command;
 - (void) disableScrollingInShrinkView:(CDVInvokedUrlCommand*)command;
 - (void) hideFormAccessoryBar:(CDVInvokedUrlCommand*)command;
+- (void) activatePartialFix:(CDVInvokedUrlCommand*)command;
 
 @end

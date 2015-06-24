@@ -19,6 +19,7 @@
 
 #import "CDVKeyboard.h"
 #import <Cordova/CDVAvailability.h>
+#import "ReroutingUIWebView.h"
 
 #ifndef __CORDOVA_3_2_0
 #warning "The keyboard plugin is only supported in Cordova 3.2 or greater, it may not work properly in an older version. If you do use this plugin in an older version, make sure the HideKeyboardFormAccessoryBar and KeyboardShrinksView preference values are false."
@@ -292,6 +293,9 @@
     
     // A view's frame is in its superview's coordinate system so we need to convert again
     self.webView.frame = [self.webView.superview convertRect:screen fromView:self.webView];
+    if(_activatePartialFix) {
+        [((ReroutingUIWebView*)self.webView) changeFrame:[self.webView.superview convertRect:screen fromView:self.webView]];
+    }
 }
 
 #pragma mark UIScrollViewDelegate
@@ -332,6 +336,16 @@
     }
     
     self.hideFormAccessoryBar = [value boolValue];
+}
+
+- (void)activatePartialFix:(CDVInvokedUrlCommand*)command
+{
+    id value = [command.arguments objectAtIndex:0];
+    if (!([value isKindOfClass:[NSNumber class]])) {
+        value = [NSNumber numberWithBool:NO];
+    }
+    
+    self.activatePartialFix = [value boolValue];
 }
 
 #pragma mark dealloc

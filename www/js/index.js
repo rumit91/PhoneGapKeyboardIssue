@@ -40,5 +40,18 @@ var app = {
     dismissKeyboard: function() {
         var input = document.getElementById('messageInput');
         input.blur();
+    },
+    togglePartialFix: function() {
+        var button = document.getElementById('fixButton');
+        if (button.textContent.indexOf('Activate') !== -1) {
+            button.textContent = 'Disable Partial Fix';
+            this.activatePartialFix(true);
+        } else {
+            button.textContent = 'Activate Partial Fix';
+            this.activatePartialFix(false);
+        }
+    },
+    activatePartialFix: function(activate) {
+        cordova.exec(null, null, "Keyboard", "activatePartialFix", [activate]);
     }
 };

@@ -6,4 +6,6 @@
 
 @property (nonatomic, strong) IBOutlet WKWebView* wkWebView;
 
+- (void)changeFrame:(CGRect)newFrame;
+
 @end

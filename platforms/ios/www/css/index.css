@@ -137,6 +137,22 @@ h1 {
     text-align: center;
 }
 
+.fix-button-container {
+    -webkit-flex:  0 0 auto;
+    border-bottom: 1px solid black;
+    background: white;    
+}
+
+.fix-button {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 50px;
+    padding: 5px;
+    color: white;
+    background: dodgerblue;
+    border-radius: 10px;
+}
+
 .content-container {
     -webkit-flex:  1 1 auto;
     overflow: scroll;
