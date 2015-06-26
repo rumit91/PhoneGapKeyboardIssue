@@ -39,16 +39,16 @@
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
-		C09C101A537E4AC685A15083 /* MyMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EA6889789945338E5F7DD7 /* MyMainViewController.m */; };
-		536AAAEB783F4394A4AE852C /* AppDelegate+WKWebViewPolyfill.h in Resources */ = {isa = PBXBuildFile; fileRef = CD7D4C2EFC0F470FB2A52341 /* AppDelegate+WKWebViewPolyfill.h */; };
-		BA185B0DED914F4188DBEAA3 /* AppDelegate+WKWebViewPolyfill.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE6201658B54AABA8ADB068 /* AppDelegate+WKWebViewPolyfill.m */; };
-		3534DACFF39E4E8B8DFBD6E6 /* ReroutingUIWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4F9B121C2E409582E5ADFC /* ReroutingUIWebView.m */; };
-		C5AFDB56DAF341318F413B29 /* CDVWebViewOperationsDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6055D09A46465BBA64D354 /* CDVWebViewOperationsDelegate.m */; };
-		7736A085BE7A478F87A569AA /* CDVWebViewUIDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EAA0E1420B4A458CCEBA7D /* CDVWebViewUIDelegate.m */; };
-		4F6BE6E63DC54D4EB1B76AA8 /* GCDWebServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C8CB8102FB4604BFB22696 /* GCDWebServer.framework */; };
-		B0B23E73D3BA4A489E1802A5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D990C5FB1FCF46B5B9A1EF8C /* WebKit.framework */; };
-		992600F925E34CDDAD98EC2B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EBFC920B9FE643BFAFEC764B /* libz.dylib */; };
-		E67FF15E39B1425EA6783477 /* CDVKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = A66FE3D7EE8E41568560073D /* CDVKeyboard.m */; };
+		EFBB472B2C8D4CA0AA81F9C4 /* CDVKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = C8213354D63240CA9C0235F1 /* CDVKeyboard.m */; };
+		DB3174FDF198473FAE70B691 /* MyMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E51617A5175D4E2EAF883743 /* MyMainViewController.m */; };
+		0C009B4C72094B2B82A2A4F2 /* AppDelegate+WKWebViewPolyfill.h in Resources */ = {isa = PBXBuildFile; fileRef = 8F00AB0DA38540C29483BECF /* AppDelegate+WKWebViewPolyfill.h */; };
+		DB66914E8B504581962BE948 /* AppDelegate+WKWebViewPolyfill.m in Sources */ = {isa = PBXBuildFile; fileRef = C155A395069D448C830F2FAA /* AppDelegate+WKWebViewPolyfill.m */; };
+		7CB3B422F32D4A13BFB14A22 /* ReroutingUIWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C06BECD307B4671B1CE0844 /* ReroutingUIWebView.m */; };
+		4EBA3EFD751344F2AE3690A6 /* CDVWebViewOperationsDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AAB9586F1A487EB7DC0763 /* CDVWebViewOperationsDelegate.m */; };
+		FD646B1EB8874100B894BDAA /* CDVWebViewUIDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EE66EBDC13498089BDB0B7 /* CDVWebViewUIDelegate.m */; };
+		956E276F75D847AB8EBE460D /* GCDWebServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F9C13381B24C268506B948 /* GCDWebServer.framework */; };
+		83788B2CD817467EA360A5EC /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB5BFD47FEC4D83AFB8E6D6 /* WebKit.framework */; };
+		30C758C45B654C359C4B6D84 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA11E5B040F47E7A49AE6D6 /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,21 +114,21 @@
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "KeyboardIssue/config.xml"; sourceTree = "<group>"; };
-		F1EA6889789945338E5F7DD7 /* MyMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MyMainViewController.m"; path = "cordova-plugin-wkwebview/MyMainViewController.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		CD7D4C2EFC0F470FB2A52341 /* AppDelegate+WKWebViewPolyfill.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+WKWebViewPolyfill.h"; path = "cordova-plugin-wkwebview/AppDelegate+WKWebViewPolyfill.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		1CE6201658B54AABA8ADB068 /* AppDelegate+WKWebViewPolyfill.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+WKWebViewPolyfill.m"; path = "cordova-plugin-wkwebview/AppDelegate+WKWebViewPolyfill.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		2F4F9B121C2E409582E5ADFC /* ReroutingUIWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ReroutingUIWebView.m"; path = "cordova-plugin-wkwebview/ReroutingUIWebView.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		1D6055D09A46465BBA64D354 /* CDVWebViewOperationsDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVWebViewOperationsDelegate.m"; path = "cordova-plugin-wkwebview/CDVWebViewOperationsDelegate.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		44EAA0E1420B4A458CCEBA7D /* CDVWebViewUIDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVWebViewUIDelegate.m"; path = "cordova-plugin-wkwebview/CDVWebViewUIDelegate.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		32F6137F97874E399A89CBB7 /* MyMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MyMainViewController.h"; path = "cordova-plugin-wkwebview/MyMainViewController.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		9ABAC256A75C4E81A19D9AF0 /* ReroutingUIWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ReroutingUIWebView.h"; path = "cordova-plugin-wkwebview/ReroutingUIWebView.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		A216DFAB18F54AE486F8DC19 /* CDVWebViewOperationsDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVWebViewOperationsDelegate.h"; path = "cordova-plugin-wkwebview/CDVWebViewOperationsDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		798D001F4C4847E1957D7C0D /* CDVWebViewUIDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVWebViewUIDelegate.h"; path = "cordova-plugin-wkwebview/CDVWebViewUIDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		39C8CB8102FB4604BFB22696 /* GCDWebServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "GCDWebServer.framework"; path = "KeyboardIssue/Plugins/cordova-plugin-wkwebview/GCDWebServer.framework"; sourceTree = "<group>"; };
-		D990C5FB1FCF46B5B9A1EF8C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "WebKit.framework"; path = "System/Library/Frameworks/WebKit.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		EBFC920B9FE643BFAFEC764B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libz.dylib"; path = "usr/lib/libz.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
-		A66FE3D7EE8E41568560073D /* CDVKeyboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVKeyboard.m"; path = "cordova-plugin-keyboard/CDVKeyboard.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		A9ED846D2BA04F7E81B4606D /* CDVKeyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVKeyboard.h"; path = "cordova-plugin-keyboard/CDVKeyboard.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		C8213354D63240CA9C0235F1 /* CDVKeyboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVKeyboard.m"; path = "cordova-plugin-keyboard/CDVKeyboard.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		1FEE22CC00C249BDB38B4C31 /* CDVKeyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVKeyboard.h"; path = "cordova-plugin-keyboard/CDVKeyboard.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		E51617A5175D4E2EAF883743 /* MyMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MyMainViewController.m"; path = "cordova-plugin-wkwebview/MyMainViewController.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		8F00AB0DA38540C29483BECF /* AppDelegate+WKWebViewPolyfill.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+WKWebViewPolyfill.h"; path = "cordova-plugin-wkwebview/AppDelegate+WKWebViewPolyfill.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		C155A395069D448C830F2FAA /* AppDelegate+WKWebViewPolyfill.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+WKWebViewPolyfill.m"; path = "cordova-plugin-wkwebview/AppDelegate+WKWebViewPolyfill.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		8C06BECD307B4671B1CE0844 /* ReroutingUIWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ReroutingUIWebView.m"; path = "cordova-plugin-wkwebview/ReroutingUIWebView.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		74AAB9586F1A487EB7DC0763 /* CDVWebViewOperationsDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVWebViewOperationsDelegate.m"; path = "cordova-plugin-wkwebview/CDVWebViewOperationsDelegate.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		32EE66EBDC13498089BDB0B7 /* CDVWebViewUIDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVWebViewUIDelegate.m"; path = "cordova-plugin-wkwebview/CDVWebViewUIDelegate.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		8EA0BD00231845FBB3CAA7F0 /* MyMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MyMainViewController.h"; path = "cordova-plugin-wkwebview/MyMainViewController.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		13C1D1B42B7F41A4AB8E4A53 /* ReroutingUIWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ReroutingUIWebView.h"; path = "cordova-plugin-wkwebview/ReroutingUIWebView.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		D1E03430B143481FA4D01968 /* CDVWebViewOperationsDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVWebViewOperationsDelegate.h"; path = "cordova-plugin-wkwebview/CDVWebViewOperationsDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		E142B94464C2407386B943D3 /* CDVWebViewUIDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVWebViewUIDelegate.h"; path = "cordova-plugin-wkwebview/CDVWebViewUIDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		45F9C13381B24C268506B948 /* GCDWebServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "GCDWebServer.framework"; path = "KeyboardIssue/Plugins/cordova-plugin-wkwebview/GCDWebServer.framework"; sourceTree = "<group>"; };
+		6AB5BFD47FEC4D83AFB8E6D6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "WebKit.framework"; path = "System/Library/Frameworks/WebKit.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		4FA11E5B040F47E7A49AE6D6 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libz.dylib"; path = "usr/lib/libz.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,9 +140,9 @@
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
-				4F6BE6E63DC54D4EB1B76AA8 /* GCDWebServer.framework in Frameworks */,
-				B0B23E73D3BA4A489E1802A5 /* WebKit.framework in Frameworks */,
-				992600F925E34CDDAD98EC2B /* libz.dylib in Frameworks */,
+				956E276F75D847AB8EBE460D /* GCDWebServer.framework in Frameworks */,
+				83788B2CD817467EA360A5EC /* WebKit.framework in Frameworks */,
+				30C758C45B654C359C4B6D84 /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +215,9 @@
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
-				39C8CB8102FB4604BFB22696 /* GCDWebServer.framework */,
-				D990C5FB1FCF46B5B9A1EF8C /* WebKit.framework */,
-				EBFC920B9FE643BFAFEC764B /* libz.dylib */,
+				45F9C13381B24C268506B948 /* GCDWebServer.framework */,
+				6AB5BFD47FEC4D83AFB8E6D6 /* WebKit.framework */,
+				4FA11E5B040F47E7A49AE6D6 /* libz.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -233,18 +233,18 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				F1EA6889789945338E5F7DD7 /* MyMainViewController.m */,
-				CD7D4C2EFC0F470FB2A52341 /* AppDelegate+WKWebViewPolyfill.h */,
-				1CE6201658B54AABA8ADB068 /* AppDelegate+WKWebViewPolyfill.m */,
-				2F4F9B121C2E409582E5ADFC /* ReroutingUIWebView.m */,
-				1D6055D09A46465BBA64D354 /* CDVWebViewOperationsDelegate.m */,
-				44EAA0E1420B4A458CCEBA7D /* CDVWebViewUIDelegate.m */,
-				32F6137F97874E399A89CBB7 /* MyMainViewController.h */,
-				9ABAC256A75C4E81A19D9AF0 /* ReroutingUIWebView.h */,
-				A216DFAB18F54AE486F8DC19 /* CDVWebViewOperationsDelegate.h */,
-				798D001F4C4847E1957D7C0D /* CDVWebViewUIDelegate.h */,
-				A66FE3D7EE8E41568560073D /* CDVKeyboard.m */,
-				A9ED846D2BA04F7E81B4606D /* CDVKeyboard.h */,
+				C8213354D63240CA9C0235F1 /* CDVKeyboard.m */,
+				1FEE22CC00C249BDB38B4C31 /* CDVKeyboard.h */,
+				E51617A5175D4E2EAF883743 /* MyMainViewController.m */,
+				8F00AB0DA38540C29483BECF /* AppDelegate+WKWebViewPolyfill.h */,
+				C155A395069D448C830F2FAA /* AppDelegate+WKWebViewPolyfill.m */,
+				8C06BECD307B4671B1CE0844 /* ReroutingUIWebView.m */,
+				74AAB9586F1A487EB7DC0763 /* CDVWebViewOperationsDelegate.m */,
+				32EE66EBDC13498089BDB0B7 /* CDVWebViewUIDelegate.m */,
+				8EA0BD00231845FBB3CAA7F0 /* MyMainViewController.h */,
+				13C1D1B42B7F41A4AB8E4A53 /* ReroutingUIWebView.h */,
+				D1E03430B143481FA4D01968 /* CDVWebViewOperationsDelegate.h */,
+				E142B94464C2407386B943D3 /* CDVWebViewUIDelegate.h */,
 			);
 			name = Plugins;
 			path = "KeyboardIssue/Plugins";
@@ -429,13 +429,13 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				C09C101A537E4AC685A15083 /* MyMainViewController.m in Sources */,
-				536AAAEB783F4394A4AE852C /* AppDelegate+WKWebViewPolyfill.h in Resources */,
-				BA185B0DED914F4188DBEAA3 /* AppDelegate+WKWebViewPolyfill.m in Sources */,
-				3534DACFF39E4E8B8DFBD6E6 /* ReroutingUIWebView.m in Sources */,
-				C5AFDB56DAF341318F413B29 /* CDVWebViewOperationsDelegate.m in Sources */,
-				7736A085BE7A478F87A569AA /* CDVWebViewUIDelegate.m in Sources */,
-				E67FF15E39B1425EA6783477 /* CDVKeyboard.m in Sources */,
+				EFBB472B2C8D4CA0AA81F9C4 /* CDVKeyboard.m in Sources */,
+				DB3174FDF198473FAE70B691 /* MyMainViewController.m in Sources */,
+				0C009B4C72094B2B82A2A4F2 /* AppDelegate+WKWebViewPolyfill.h in Resources */,
+				DB66914E8B504581962BE948 /* AppDelegate+WKWebViewPolyfill.m in Sources */,
+				7CB3B422F32D4A13BFB14A22 /* ReroutingUIWebView.m in Sources */,
+				4EBA3EFD751344F2AE3690A6 /* CDVWebViewOperationsDelegate.m in Sources */,
+				FD646B1EB8874100B894BDAA /* CDVWebViewUIDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +481,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"KeyboardIssue/Plugins/cordova-plugin-wkwebview\"",
+					"\"KeyboardIssue/Plugins/cordova-plugin-wkwebview\"",
 				);
 			};
 			name = Debug;
@@ -513,6 +514,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"KeyboardIssue/Plugins/cordova-plugin-wkwebview\"",
 					"\"KeyboardIssue/Plugins/cordova-plugin-wkwebview\"",
 				);
 			};

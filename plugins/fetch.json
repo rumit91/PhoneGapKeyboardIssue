@@ -7,18 +7,18 @@
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-plugin-wkwebview": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-wkwebview"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "cordova-plugin-keyboard": {
         "source": {
             "type": "registry",
             "id": "cordova-plugin-keyboard"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-wkwebview": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-wkwebview"
         },
         "is_top_level": true,
         "variables": {}

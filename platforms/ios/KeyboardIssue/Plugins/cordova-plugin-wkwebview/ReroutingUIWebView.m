@@ -20,12 +20,4 @@
   [self.wkWebView addSubview:view];
 }
 
-- (void)changeFrame:(CGRect)newFrame {
-    self.wkWebView.frame = newFrame;
-    
-    // Setting the content of the scrollView to the same size and offset as the frame.
-    [self.wkWebView.scrollView setContentOffset:CGPointMake(0.0, 0.0) animated: false];
-    [self.wkWebView.scrollView setContentSize:CGSizeMake(newFrame.size.width, newFrame.size.height)];
-}
-
 @end

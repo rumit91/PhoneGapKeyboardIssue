@@ -25,11 +25,11 @@
                 "parents": {
                     "/*": [
                         {
-                            "xml": "<feature name=\"WKWebViewPolyfill\"><param name=\"ios-package\" value=\"WKWebViewPolyfill\" /></feature>",
+                            "xml": "<feature name=\"Keyboard\"><param name=\"ios-package\" onload=\"true\" value=\"CDVKeyboard\" /></feature>",
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"Keyboard\"><param name=\"ios-package\" onload=\"true\" value=\"CDVKeyboard\" /></feature>",
+                            "xml": "<feature name=\"WKWebViewPolyfill\"><param name=\"ios-package\" value=\"WKWebViewPolyfill\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -38,10 +38,10 @@
         }
     },
     "installed_plugins": {
-        "cordova-plugin-wkwebview": {
+        "cordova-plugin-keyboard": {
             "PACKAGE_NAME": "com.example.keyboardissue"
         },
-        "cordova-plugin-keyboard": {
+        "cordova-plugin-wkwebview": {
             "PACKAGE_NAME": "com.example.keyboardissue"
         }
     },

@@ -83,4 +83,6 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+    <plugin name="cordova-plugin-keyboard" spec="^0.1.2" />
+    <plugin name="cordova-plugin-wkwebview" spec="^0.3.9" />
 </widget>
