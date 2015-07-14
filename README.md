@@ -5,16 +5,24 @@ Repo for testing out issues with the PhoneGap keyboard in iOS. Specifically crea
 1. On your Mac install PhoneGap - http://phonegap.com/
 2. Run `phonegap build ios`
 3. Open  `/platforms/ios/KeyboardIssue.xcodeproj` and Run
-4. The default behavior can be seen by tapping on the input field. 
+
+# Behaviors
+###Default###
+- The default behavior of the WKWebView was to just slide up the whole webview and leave room for the form bar which effectively ignored the `Keyboard.shrinkView(true)` command of the keyboard plugin. Illustrated in the next two screenshots:
 - ![Screenshot1 - keyboard down - no fix](http://i.imgur.com/p7PaD35m.png) ![Screenshot2 - keyboard up - no fix](http://i.imgur.com/ldiFwh9m.png)
-6. Tapping "Activate Partial Fix" will enable the hacky partial fix that I wrote which passes the right frame resizing commands to the WKWebView. 
+
+###With fix to `ReroutingUIWebView.m`###
+- Adding [my fix](https://github.com/Telerik-Verified-Plugins/WKWebView/commit/8caa40f16b1aac36a185f4460941ccc22789fbbc) to the `ReroutingUIWebView.m` file makes the app behave a bit closer to what's desired: 
 - ![Screenshot3 - keyboard down - fix](http://i.imgur.com/5MWvToBm.png) ![Screenshot4 - keyboard up - fix](http://i.imgur.com/oAnr6wHm.png)
 
-###Partial Fix is not working as intended.###
-__Note:__ I didn't actually get it working exactly how I had it in my production repo. Here's kind of what it looked like in my production repo:
+###With fix to `<meta>` in `index.html`###
+- Removing `height=device-height` from the `<meta>` tag in `index.html` makes the app behave as desired.
 - ![Screenshot5 - keyboard down - fix](http://i.imgur.com/5MWvToBm.png) ![Screenshot6 - keyboard up - fix](http://i.imgur.com/SXDAbFKm.png)
-- Even if I get it working as intended there's still the issue of the offset being applied whenever the user taps a key on the keyboard:
-- ![Screenshot7 - keyboard up - fix](http://i.imgur.com/SXDAbFKm.png) ![Screenshot8 - keyboard up - fix](http://i.imgur.com/83Ts7lpm.png)
+
+###Still need to fix scrolling issue###
+- When the keyboard is up the user is unable to scroll the webview as expected.
+- It is still possible to scroll the webview, but only if you scroll in a thin little strip right below the title bar. 
+- Will investigate further.
 
 
 ###Please [post here](https://github.com/Telerik-Verified-Plugins/WKWebView/issues/27) if you have any suggestions for a fix to this issue!###
