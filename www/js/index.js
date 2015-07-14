@@ -35,13 +35,13 @@ var app = {
     onDeviceReady: function() {
         Keyboard.hideFormAccessoryBar(true);
         Keyboard.shrinkView(true);
-        Keyboard.disableScrollingInShrinkView(true);
+        //Keyboard.disableScrollingInShrinkView(true);
     },
     dismissKeyboard: function() {
         var input = document.getElementById('messageInput');
         input.blur();
     },
-    togglePartialFix: function() {
+    /*togglePartialFix: function() {
         var button = document.getElementById('fixButton');
         if (button.textContent.indexOf('Activate') !== -1) {
             button.textContent = 'Disable Partial Fix';
@@ -53,5 +53,5 @@ var app = {
     },
     activatePartialFix: function(activate) {
         cordova.exec(null, null, "Keyboard", "activatePartialFix", [activate]);
-    }
+    }*/
 };

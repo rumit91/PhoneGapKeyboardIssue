@@ -7,10 +7,18 @@
         "is_top_level": true,
         "variables": {}
     },
+    "cordova-plugin-statusbar": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-statusbar"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
     "cordova-plugin-keyboard": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-keyboard"
+            "id": "cordova-plugin-keyboard@^0.1.2"
         },
         "is_top_level": true,
         "variables": {}
